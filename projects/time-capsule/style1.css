@@ -1,0 +1,103 @@
+body{
+	position: absolute;
+	left: 100px;
+	height: 1000px;
+	width: 1000px;
+	background: #b2aec9;
+	font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+}
+
+.one{
+	width: 48.5%;
+	height: 100%;
+	background: #f7f2e9;
+	float: left;
+}
+
+.two{
+	width: 48.5%;
+	height: 100%;
+	background: #f7f2e9;
+	float: left;
+}
+
+.box{ 
+	width: 20%;
+	height: 20%;
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	background: white;
+	float: left;
+}
+
+.box:hover { 
+	background: red;
+}
+
+.box2{
+	width: 40%;
+	height: 20%;
+	background: #f4a11f;
+	position: absolute;
+	left: 20%;
+	top: 35%;
+}
+
+.box2:hover { 
+	background: blue;
+}
+
+.box3{
+	width: 25%;
+	height: 59.8%;
+	background: #f4a11f;
+	float: left;
+	margin-top: 110%;
+	border-left: 0.05em solid #f7f2e9;
+	border-right: 0.05em solid #f7f2e9;
+}
+
+.box3:hover { 
+	background: green;
+}
+
+.box4{
+	width: 15%;
+	height: 58%;
+	background: #f4a11f;
+	float: left;
+	margin-top: 43%;
+	border-right: 0.05em solid #f7f2e9;
+}
+
+.box4:hover{ 
+	background: yellow;
+}
+
+.box5{
+	width: 9.1%;
+	height: 60%;
+	background: #f4a11f;
+	float: left;
+}
+
+.box5:hover { 
+	background: purple;
+}
+
+
+
+.box6{
+	width: 99%;
+	height: 70%;
+}
+
+
