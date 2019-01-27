@@ -1,6 +1,6 @@
 body{
 	position: absolute;
-	left: 100px;
+	left: 10%;
 	height: 1000px;
 	width: 1000px;
 	background: #b2aec9;
@@ -25,9 +25,6 @@ body{
 	float: left;
 }
 
-.box:hover { 
-	background: white;
-}
 
 .box2{
 	width: 40%;
@@ -38,9 +35,6 @@ body{
 	top: 35%;
 }
 
-.box2:hover { 
-	background: blue;
-}
 
 .box3{
 	width: 30%;
@@ -49,10 +43,6 @@ body{
 	position: absolute;
 	top: 56%;
 	left: 5%;
-}
-
-.box3:hover { 
-	background: green;
 }
 
 .box4{
@@ -64,9 +54,6 @@ body{
 	left: 61%;
 }
 
-.box4:hover{ 
-	background: yellow;
-}
 
 .box5{
 	width: 24%;
@@ -76,11 +63,6 @@ body{
 	left: 36%;
 	background: white;
 }
-
-.box5:hover { 
-	background: purple;
-}
-
 
 .box6{
 	width: 30%;
