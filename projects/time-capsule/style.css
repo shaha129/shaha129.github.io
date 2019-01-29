@@ -40,7 +40,9 @@ slide:nth-child(2) {
 }
 
 button{
+	width: 3%;
+	height: 3%;
 	position: absolute;
-	left: 86%;
-	top: 68%;
+	left: 85%;
+	top: 67%;
 }
