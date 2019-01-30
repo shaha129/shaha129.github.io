@@ -1,0 +1,16 @@
+body{
+	position: absolute;
+	left: 15%;
+	height: 100%;
+	width: 100%;
+	background: white;
+	font-family: neue-haas-grotesk-display, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container{
+	height: 100%;
+	width: 100%;
+}
+
