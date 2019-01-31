@@ -1,14 +1,83 @@
 body{
+	height: 600%;
+	width: 100%;
 	background: white;
 	font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 500;
 }
 
+.container{
+	height: auto;
+	width: 50%;
+	background: white;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0; 
+}
+
+.closeup{
+	position: absolute;
+	left: auto;
+	right: auto;
+}
 
 .one{
 	position: absolute;
-	top: 280%;
-	left: 600px;
+	top: auto;
+	left: 20%;
+	right: 20%;
+	margin-top: 150%;
+}
+
+.two{
+	position: absolute;
+	top: auto;
+	left: 0%;
+	margin-top: 190%;
+}
+
+.three{
+	position: relative;
+	top: auto;
+	left: 40%;
+	margin-top: 220%;
+}
+
+.four{
+	position: relative;
+	top: auto;
+	left: -20%;
+	margin-top: -100%;
+}
+
+.five{
+	position: relative;
+	top: auto;
+	left: 20%;
+	margin-top: -30%;
+}
+
+.six{
+	position: relative;
+	top: auto;
+	left: 0%;
+	margin-top: -90%;
+}
+
+.seven{
+	position: relative;
+	top: auto;
+	left: 10%;
+	margin-top: -50%;
+}
+
+.eight{
+	position: relative;
+	top: auto;
+	left: 0%;
+	margin-top: -100%;
 }
 
