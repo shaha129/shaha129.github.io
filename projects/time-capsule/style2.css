@@ -1,7 +1,7 @@
 body{
 	height: 600%;
 	width: 100%;
-	background: white;
+	background-color: white; 
 	font-family: neue-haas-grotesk-display, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -25,59 +25,60 @@ body{
 }
 
 .one{
-	position: absolute;
+	position: relative;
 	top: auto;
-	left: 20%;
+	left: -5%;
 	right: 20%;
-	margin-top: 150%;
+	margin-top: 110%;
 }
 
 .two{
 	position: absolute;
 	top: auto;
-	left: 0%;
-	margin-top: 190%;
+	left: 40%;
+	margin-top: -20%;
+
 }
 
 .three{
 	position: relative;
 	top: auto;
-	left: 40%;
-	margin-top: 220%;
+	left: -10%;
+	margin-top: -10%;
 }
 
 .four{
-	position: relative;
-	top: auto;
-	left: -20%;
-	margin-top: -100%;
-}
-
-.five{
 	position: relative;
 	top: auto;
 	left: 20%;
 	margin-top: -30%;
 }
 
+.five{
+	position: relative;
+	top: auto;
+	left: -10%;
+	margin-top: -100%;
+}
+
 .six{
 	position: relative;
 	top: auto;
-	left: 0%;
-	margin-top: -90%;
+	left: 20%;
+	margin-top: -40%;
 }
 
 .seven{
 	position: relative;
 	top: auto;
-	left: 10%;
-	margin-top: -50%;
+	left: -20%;
+	margin-top: -70%;
 }
 
 .eight{
 	position: relative;
 	top: auto;
-	left: 0%;
+	left: 10%;
 	margin-top: -100%;
 }
 
