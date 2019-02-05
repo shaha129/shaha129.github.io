@@ -1,9 +1,34 @@
 body{
 	width: 100%;
 	height: 100%;
+	font-family: neue-haas-grotesk-display, sans-serif;
 }
 
-.h1{
+.heading{
 
-	
+	font-size: 15em;
+	line-height: 0.9em;
+	letter-spacing: 0.1em;
+
+}
+
+.heading .new{
+	text-align: left;
+}
+
+.heading .york{
+	text-align: center;
+}
+
+.heading .city{
+	text-align: right;
+}
+
+.pictures{
+	margin-top: 10%;
+	padding: 2em;
+	width: 30%
+	height: 10%;
+	overflow: scroll;
+
 }
