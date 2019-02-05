@@ -1,0 +1,23 @@
+body{
+
+}
+
+.title{
+	font-family: futura;
+	text-align: center;
+}
+
+.text{
+	margin-top: 0%;
+	
+}
+
+.box{
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 25%;
+	margin-top: -4%;
+	width: 300px;
+	height: 2px;
+	background: black;
+}
