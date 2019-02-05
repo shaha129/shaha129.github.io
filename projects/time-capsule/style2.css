@@ -27,58 +27,58 @@ body{
 .one{
 	position: relative;
 	top: auto;
-	left: -5%;
+	left: 30%;
 	right: 20%;
-	margin-top: 110%;
+	margin-top: 155%;
 }
 
 .two{
-	position: absolute;
+	position: relative;
 	top: auto;
-	left: 40%;
-	margin-top: -20%;
+	left: -10%;
+	margin-top: -30%;
 
 }
 
 .three{
 	position: relative;
 	top: auto;
-	left: -10%;
-	margin-top: -10%;
+	left: 30%;
+	margin-top: -30%;
 }
 
 .four{
 	position: relative;
 	top: auto;
-	left: 20%;
-	margin-top: -30%;
+	left: -20%;
+	margin-top: -40%;
 }
 
 .five{
 	position: relative;
 	top: auto;
-	left: -10%;
-	margin-top: -100%;
+	left: 30%;
+	margin-top: -20%;
 }
 
 .six{
 	position: relative;
 	top: auto;
-	left: 20%;
-	margin-top: -40%;
+	left: -20%;
+	margin-top: -50%;
 }
 
 .seven{
 	position: relative;
 	top: auto;
-	left: -20%;
-	margin-top: -70%;
+	left: 30%;
+	margin-top: -40%;
 }
 
 .eight{
 	position: relative;
 	top: auto;
-	left: 10%;
-	margin-top: -100%;
+	left: -10%;
+	margin-top: -10%;
 }
 
