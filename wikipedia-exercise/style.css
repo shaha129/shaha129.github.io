@@ -2,33 +2,148 @@ body{
 	width: 100%;
 	height: 100%;
 	font-family: neue-haas-grotesk-display, sans-serif;
+	margin: 0;
+}
+
+
+header{
+	height: 30%;
 }
 
 .heading{
-
-	font-size: 15em;
-	line-height: 0.9em;
-	letter-spacing: 0.1em;
+	float: left;
+	font-size: 11.5em;
+	line-height: 0.8em;
+	padding: 2vw;
 
 }
 
-.heading .new{
-	text-align: left;
+
+.box{
+	height: 40vh;
+	width: auto;
+	background-color: white;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	white-space: nowrap;
+	margin-bottom: 2vw;
 }
 
-.heading .york{
-	text-align: center;
+.card-1{
+	display: inline-block;
+	background-color: red;
+	height: 100%;
+	width: 300px;
 }
 
-.heading .city{
-	text-align: right;
+.card-2{
+	display: inline-block;
+	background-color: yellow;
+	height: 100%;
+	width: 600px;
 }
 
-.pictures{
-	margin-top: 10%;
-	padding: 2em;
-	width: 30%
-	height: 10%;
-	overflow: scroll;
+.animation{
+	 animation:blinkingText 10s infinite;
 
+}
+
+@keyframes blinkingText{
+    0%{     color: grey;    }
+    49%{    color: lightblue; }
+    50%{    color: darkblue; }
+    99%{    color: purple ; }
+    100%{   color: black;    }
+  }  
+
+.toptext{
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.table{
+	font-size: 1em;
+	background-color: none; 
+	width: 50vw;
+	height: 100vh;
+	margin: 2vw;
+
+}
+
+.table .contents{
+	font-size: 1.5em;
+	font-style: bold;
+	margin-left: 1%;
+}
+
+.table .text {
+	color: white;
+	margin: 0.5vw;
+}
+
+.table .text .one {
+	background-color: black;
+}
+
+.box2{
+	height: 100vh;
+	width: auto;
+	background-color: #005dab;
+}
+
+
+
+.box3{
+	height: 100vh;
+	width: auto;
+	background-color: #f78429;
+}
+
+.box4{
+	background-color: #ee3a43;
+	height: 100vh;
+	width: auto;;
+}
+
+.box5{
+	background-color: #00a850;
+	height: 100vh;
+	width: auto;
+}
+
+.box6{
+	background-color: #a54398;
+	height: 100vh;
+	width: auto;
+	
+}
+
+.maintext{
+	padding: 1vw;
+	font-size: 2vw;
+	margin: 1vw;
+	color: white;	
+}
+
+.maintext .subheading{
+	font-weight: bold;
+	background-color: white;
+	width: 100vw;
+	height: auto;
+	color: black;
+
+}
+
+.maintext .subheading2{
+	color: white;
+	text-decoration: underline; 
+}
+
+ul{
+	display: inline-block;
+	float: left;
+}
+
+.maintext .left{
+	float: left;
 }
