@@ -3,14 +3,8 @@ body{
 	height: 100%;
 	font-family: Times New Roman, serif;
 	margin: 5vw;
-	background-image: url(bg5.jpg);
+	background-image: url(bg2.jpg);
 	background-repeat: no-repeat, 100%;
-}
-
-.box{
-	width: 100%;
-	height: 80%;
-	z-index: -2px;
 }
 
 .box2{
@@ -25,15 +19,6 @@ body{
 
 }
 
-.heading{
-	text-align: center;
-	font-size: 7em;
-	line-height: 0.9em;
-	margin-bottom: 5vw;
-	text-transform: uppercase;
-
-}
-
 .maintext{
 	font-size: 1em;
 	text-align: center;
@@ -44,6 +29,13 @@ body{
     max-width: 80vw;
 }
 
+.subheading{
+	font-size: 2em;
+}
+
+.subheading2{
+	text-decoration: underline;
+}
 
 button{
 	float: right;
@@ -63,3 +55,4 @@ button:hover, button:active {
   background-color: red;
   color: red;
 }
+
