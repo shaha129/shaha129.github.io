@@ -91,6 +91,16 @@ nav a{
 	text-align: center;
 }
 
+.maintext2{
+	font-size: 1em;
+	text-align: left;
+}
+
+.maintext2{
+	font-size: 1em;
+	text-align: right;
+}
+
 .subheading{
 	font-size: 1.5em;
 }
