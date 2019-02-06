@@ -13,9 +13,17 @@ header{
 .heading{
 	float: left;
 	font-size: 11.5em;
-	line-height: 0.8em;
+	line-height: 0.9em;
 	padding: 2vw;
 
+}
+
+.new{
+	margin-left: 2.1vw;
+}
+
+.city{
+	margin-left: 2.8vw;
 }
 
 
