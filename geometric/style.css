@@ -1,0 +1,36 @@
+body{
+	width: 100%;
+	height: 100%;
+	background: beige;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.box{
+	width: 40vw;
+	height: 5vh;
+	background: black;
+}
+
+.box2{
+	width: 40vw;
+	height: 5vh;
+	background: black;
+}
+
+
+.box3{
+	width: 40vw;
+	height: 5vh;
+	background: black;
+}
+
+.box4{
+	width: 40vw;
+	height: 5vh;
+	background: black;
+}
