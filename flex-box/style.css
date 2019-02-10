@@ -32,18 +32,21 @@ body{
 }
 
 .box{
+	margin: 2vw;
 	width: 6vw;
 	height: 10vh;
 	background: red;
 }
 
 .box2{
+	margin: 2vw;
 	width: 6vw;
 	height: 10vh;
 	background: darkblue;
 }
 
 .box3{
+	margin: 2vw;
 	width: 6vw;
 	height: 10vh;
 	background: lightgreen;
@@ -51,18 +54,21 @@ body{
 
 
 .box4{
+	margin: 2vw;
 	width: 6vw;
 	height: 10vh;
 	background: yellow;
 }
 
 .box5{
+	margin: 2vw;
 	width: 6vw;
 	height: 10vh;
 	background: lightblue;
 }
 
 .box6{
+	margin: 2vw;
 	width: 6vw;
 	height: 10vh;
 	background: darkorange;

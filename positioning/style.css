@@ -12,18 +12,21 @@ body{
 	width: 40vw;
 	height: 100vh;
 	background: black;
+	margin:2vw;
 }
 
 .static2{
 	width: 40vw;
 	height: 100vh;
 	background: red;
+	margin:2vw;
 }
 
 .static3{
 	width: 40vw;
 	height: 100vh;
 	background: blue;
+	margin:2vw;
 }
 
 
