@@ -1,0 +1,41 @@
+body{
+	background: black;
+	text-align: center;
+	margin: 6vw;
+}
+
+.text{
+	font-size: 1.5em;
+	font-family: Futura;
+	color: white;
+	text-decoration: none;
+	background: black;
+}
+
+.link{
+	font-size: 1.7em;
+	font-family: Futura;
+	color: white;
+	text-decoration: none;
+	background: black;
+}
+
+.link .amaya{
+	font-size: 2em;
+	font-family: courier;
+	color: white;
+	text-decoration: none;
+	background: black;
+}
+
+.link:hover, link:active {
+  background-color: red;
+  color: black;
+}
+
+button{
+	width: 10%;
+	height: 20%;
+	font-family: futura;
+	font-size: 1em;
+}
