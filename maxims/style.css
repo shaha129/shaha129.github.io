@@ -1,0 +1,647 @@
+body{
+	width: 862%;
+	height: 100%;
+	background: black;
+	font-family: neue-haas-grotesk-display, sans-serif;
+	font-style: bold;
+    font-stretch: condensed;
+    font-weight: 900;
+}
+
+.mainpic{
+	width: 70vw;
+	height: 90vh;
+	display: flex;
+ 	justify-content: center;
+ 	margin-top: 5vw;
+ 	margin-left: 13vw;
+ 	margin-bottom: auto;
+ 	margin-right: auto;
+}
+
+.firstpage{
+
+	background: black;
+	border: white 2pt none;
+	width: 80vw;
+	height: 95%;
+	position: absolute;
+	left: 87%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+
+}
+
+.left{
+	float: left;
+	background: none;
+	width: 37vw;
+	height: 95%;
+	margin: 1vw;
+	z-index: -1;
+
+}
+
+.english{
+	margin: 2vw;
+	margin-top: 12vw;
+	line-height: 1.4em;
+	font-size: 2.5em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+.english2{
+	margin: 3vw;
+	margin-top: 4vw;
+	line-height: 1.4em;
+	font-size: 2em;
+	text-align: left;
+	color: white;
+	z-index: 5;
+}
+
+.english3{
+	margin: 3vw;
+	margin-top: 2.5vw;
+	line-height: 1.1em;
+	font-size: 1.9em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+
+.english4{
+	margin: 9vw;
+	margin-top: 2.5vw;
+	line-height: 1.4em;
+	font-size: 1em;
+	text-align: center;
+	color: black;
+	z-index: 5;
+}
+
+.english5{
+	margin: 6vw;
+	margin-top: 4vw;
+	line-height: 1.4em;
+	font-size: 1.3em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+.english6{
+	margin: 2vw;
+	margin-top: 4vw;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+	position: absolute;
+	left: 54%;
+	top: 25%;
+}
+
+
+.english7{
+	margin: 6vw;
+	margin-top: 4vw;
+	line-height: 1.4em;
+	font-size: 1.3em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+.english8{
+	margin: 3vw;
+	margin-left: 12%;
+	margin-top: 8vw;
+	line-height: 1.4em;
+	font-size: 1.4em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+.english9{
+	margin: 6%;
+	margin-left: 6%;
+	line-height: 1.4em;
+	font-size: 1.2em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+.english10{
+	margin: 6%;
+	margin-left: 6%;
+	line-height: 1.4em;
+	font-size: 1.2em;
+	text-align: left;
+	color: black;
+	z-index: 5;
+}
+
+.right{
+	float: right;
+	background: white;
+	width: 39vw;
+	height: 100%;
+	z-index: 1;
+
+}
+
+.urdu{
+	margin: 2vw;
+	margin-top: 11vw;
+	font-family: B Sina;
+	line-height: 1.4em;
+	font-size: 3em;
+	text-align: right;
+	color: white;
+	z-index: 5;
+}
+
+.urdu2{
+	margin-top: 4vw;
+	font-family: B Sina;
+	line-height: 1.4em;
+	font-size: 2.4em;
+	text-align: center;
+	color: white;
+	z-index: 5;
+}
+
+.urdu3{
+	margin: 4vw;
+	margin-top: 3vw;
+	margin-right: 5vw;
+	font-family: B Sina;
+	line-height: 1.3em;
+	font-size: 2.1em;
+	text-align: right;
+	color: white;
+	z-index: 5;
+}
+
+.urdu4{
+	margin: 20vh;
+	font-family: B Sina;
+	line-height: 1.7em;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	z-index: 5;
+}
+
+.urdu5{
+	margin: 4vh;
+	margin-top: 3vw;
+	margin-right: 5vw;
+	font-family: B Sina;
+	line-height: 1.8em;
+	font-size: 1.7em;
+	text-align: right;
+	color: white;
+	z-index: 5;
+	position: absolute;
+	left: -37%;
+	top: 20%;
+}
+
+.urdu6{
+	margin: 10vh;
+	margin-top: 5vw;
+	font-family: B Sina;
+	line-height: 1.8em;
+	font-size: 1.4em;
+	text-align: right;
+	color: white;
+	z-index: 5;
+	position: absolute;
+	
+}
+
+.urdu7{
+	font-family: B Sina;
+	line-height: 1.8em;
+	font-size: 1.4em;
+	text-align: right;
+	color: black;
+	z-index: 5;
+}
+
+.urdu8{
+	margin-right: 27%;
+	margin-top: 25%;
+	font-family: B Sina;
+	line-height: 1.6em;
+	font-size: 2em;
+	text-align: right;
+	color: white;
+	z-index: 5;
+	position: absolute;
+	left: 46%;
+	top: 15%;
+}
+
+.urdu9{
+	font-family: B Sina;
+	line-height: 1.8em;
+	font-size: 1.4em;
+	text-align: right;
+	color: white;
+	z-index: 5;
+	position: absolute;
+	left: 8%;
+	top: 24%;
+}
+
+.urdu10{
+	font-family: B Sina;
+	line-height: 1.8em;
+	font-size: 1.4em;
+	text-align: right;
+	color: black;
+	z-index: 5;
+	position: absolute;
+	left: 6%;
+	top: 8%;
+	margin-right: 8%;
+}
+
+.secondpage{
+	background: white;
+	padding-left: 5%;
+	width: 80vw;
+	height: 95%;
+	position: absolute;
+	left: 167%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.bottombox{
+	background: black;
+	width: 80vw;
+	height: 20%;
+	position: absolute;
+	top: 64%;
+}
+
+.topbox {
+	top: 9%;
+	background: black;
+	width: 80vw;
+	height: 20%;
+	position: absolute;
+	overflow: hidden;
+}
+
+@-webkit-keyframes scroll {
+	0% {
+		-webkit-transform: translate(0,0);
+	}
+	100%{
+		-webkit-transform: translate(-100%,0);
+	}
+}
+
+.marquee{
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+
+span{ 
+	width: 50%;
+}
+
+.marquee span{
+	display: inline-block;
+	padding-left: 100%;
+	-webkit-animation: scroll 20s infinite linear; 
+}
+
+.marquee2{
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+
+}
+
+.marquee2 span{
+	display: inline-block;
+	padding-right: 100%;
+	-webkit-animation: scroll 15s infinite linear; 
+}
+
+.thirdpage{
+	background: white;
+	width: 80vw;
+	height: 95%;
+	position: absolute;
+	left: 252%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.box1{
+	background: none;
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	left: 10%;
+	top: 9%;
+}
+
+.box2{
+	background: black;
+	width: 40%;
+	height: 40%;
+	position: absolute;
+	left: 53%;
+	top: 9%;
+}
+
+.box3{
+	background: black;
+	width: 40%;
+	height: 24%;
+	position: absolute;
+	left: 10%;
+	top: 64%;
+}
+
+.box4{
+	background: none;
+	width: 43%;
+	height: 24%;
+	position: absolute;
+	left: 53%;
+	top: 64%;
+}
+
+.fourthpage{
+	background: black;
+	width: 80vw;
+	height: 95%;
+	position: absolute;
+	left: 332%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.leftcredits{
+	background: white;
+	width: 30%;
+	height: 100%;
+	position: absolute;	
+
+}
+
+.rightcredits{
+	background: black;
+	width: 30%;
+	height: 100%;
+	position: absolute;	
+	left: 30%;
+
+}
+
+.fifthpage{
+	background: black;
+	width: 80vw;
+	height: 95%;
+	position: absolute;
+	left: 412%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.whitebox{
+	background: white;
+	width: 56%;
+	height: 37%;
+	position: absolute;
+	left: 3%;
+	top: 63%;
+
+}
+
+.sixthpage{
+	background: white;
+	width: 80.1vw;
+	height: 95%;
+	position: absolute;
+	left: 459%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.whitebox2{
+	background: black;
+	width: 56%;
+	height: 37%;
+	position: absolute;
+	left: 0%;
+	top: 63%;
+
+}
+
+.seventhpage{
+	background: white;
+	width: 80.1vw;
+	height: 95%;
+	position: absolute;
+	left: 539%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.freaksF{
+	font-family: "HelveticaNeue-CondensedBold";
+	color: black;
+	font-weight: bold;
+	font-size: 15em;
+	transform: rotate(270deg);
+	z-index: 2;
+	position: absolute;
+	left: 9%;
+	top: -5%;
+}
+
+.freaksR{
+	font-family: "HelveticaNeue-CondensedBold";
+	color: black;
+	font-weight: bold;
+	font-size: 15em;
+	transform: rotate(90deg);
+	z-index: 2;
+	position: absolute;
+	left: 34%;
+	top: 24%;
+}
+
+.freaks{
+	font-family: "HelveticaNeue-CondensedBold";
+	color: black;
+	font-weight: bold;
+	font-size: 14em;
+	z-index: 2;
+	position: absolute;
+	left: 55%;
+	top: 65%;
+}
+
+.toptext{
+	position: absolute;
+	left: 48%;
+	top: 20%;
+	
+}
+
+.bottomtext{
+	position: absolute;
+	left: 12%;
+	top: 68%;
+	
+}
+
+
+.eighthpage{
+	background: black;
+	width: 80.1vw;
+	height: 95%;
+	position: absolute;
+	left: 619%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.square{
+	background: white;
+	width: 30vw;
+	height: 59vh;
+	position: absolute;
+	left: 0%;
+	top: 37.9%;
+}
+
+.square2{
+	background: none;
+	width: 30vw;
+	height: 59vh;
+	position: absolute;
+	left: 0%;
+	top: 37.9%;
+}
+
+
+.ninthpage{
+	background: white;
+	width: 80.1vw;
+	height: 95%;
+	position: absolute;
+	left: 690%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.white{
+	background: white;
+	width: 60%;
+	height: 40%;
+	position: absolute;
+	left: 1%;
+	top: 2%;
+}
+
+.black{
+	background: black;
+	width: 50%;
+	height: 40%;
+	position: absolute;
+	left: 44%;
+	top: 51%;
+}
+
+.tenthpage{
+	background: white;
+	width: 90vw;
+	height: 95%;
+	position: absolute;
+	left: 770%;
+	top: 0%;
+	margin: 1vw;
+	z-index: -1;
+}
+
+.freaksurduF{
+	font-family: B Sina;
+	color: black;
+	font-size: 14em;
+	transform: rotate(270deg);
+	z-index: 2;
+	position: absolute;
+	left: 84%;
+	top: -23%;
+}
+
+.freaksurduR{
+	font-family: B Sina;
+	color: black;
+	font-size: 14em;
+	transform: rotate(90deg);
+	z-index: 2;
+	position: absolute;
+	left: 60%;
+	top: 3%;
+}
+
+.freaksurdu{
+	font-family: B Sina;
+	color: black;
+	font-size: 14em;
+	z-index: 2;
+	position: absolute;
+	left: 0%;
+	top: 31%;
+}
+
+.boxurdu{
+	width: 40%;
+	height: 25%;
+	background-color: none;
+	position: absolute;
+	left: 19%;
+	top: 17%;
+}
+
+
+.boxeng{
+	width: 40%;
+	height: 25%;
+	background-color: none;
+	position: absolute;
+	left: 43%;
+	top: 60%;
+}
