@@ -1,23 +1,21 @@
+body{
 
-.box{
-	width: 50%;
-	height: 50%;
-	background: red;
-	position: absolute;
-	left: 20%;
-	top: 20%;
 }
 
 
 
-.box:hover {
-	background: blue;
+.box{
+	margin: 2vw;
+	padding: 2vw;
+	width: 50%;
+	height: 231%;
+	background: black;
+	position: absolute;
+	float: left;
 }
 
 .text{
-	color: black;
-}
-
-.text:hover{
-	color:white;
+	font-family: helvetica;
+	font-size: 1em;
+	color: white;
 }
