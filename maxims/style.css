@@ -86,7 +86,6 @@ body{
 	color: black;
 	z-index: 5;
 
-	overflow: hidden;
 	-moz-transform:translateY(-100%);
  	-webkit-transform:translateY(-100%);	
  	transform:translateY(-100%);
@@ -234,7 +233,6 @@ body{
 	color: white;
 	z-index: 5;
 
-	overflow: hidden;
 	-moz-transform:translateY(-100%);
  	-webkit-transform:translateY(-100%);	
  	transform:translateY(-100%);
@@ -477,7 +475,8 @@ span{
 	background: white;
 	width: 30%;
 	height: 100%;
-	position: absolute;	
+	position: absolute;
+	overflow-y: hidden;	
 }
 
 .rightcredits{
@@ -486,6 +485,7 @@ span{
 	height: 100%;
 	position: absolute;	
 	left: 30%;
+	overflow-y: hidden;
 
 }
 
