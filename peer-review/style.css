@@ -1,0 +1,23 @@
+
+.box{
+	width: 50%;
+	height: 50%;
+	background: red;
+	position: absolute;
+	left: 20%;
+	top: 20%;
+}
+
+
+
+.box:hover {
+	background: blue;
+}
+
+.text{
+	color: black;
+}
+
+.text:hover{
+	color:white;
+}
