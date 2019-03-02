@@ -1,0 +1,135 @@
+
+body {
+  background-color: #3A024C;
+  font-family: arial;
+  color: red;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 1;
+}
+
+.item {
+  text-align: center;
+}
+
+#layer-1{
+  height: 50%;
+}
+
+#purple{
+  height: 50%;
+  animation: updown 5s ease-in-out;
+
+}
+
+@keyframes updown {
+  0% {
+    transform: translateY(-25%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+
+#purple:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#blue{
+  height: 50%;
+  animation: updownone 5s ease-in-out 3s;
+
+}
+
+@keyframes updownone {
+  0% {
+    transform: translateY(-30%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+
+#blue:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#blue polygon {
+  animation: fill 12s;
+}
+
+
+@keyframes fill {
+  0% {
+   fill: none;
+  }
+
+  100% {
+    fill: default;
+  }
+}
+
+
+@keyframes updowntwo {
+  0% {
+    transform: translateY(-30%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+
+#green{
+  height: 50%;
+  animation: updowntwo 5s ease-in-out 6s;
+}
+
+#green:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#green path {
+  animation: fill 21s;
+}
+
+
+@keyframes updownthree {
+  0% {
+    transform: translateY(-20%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+
+#orange{
+  height: 50%;
+  animation: updownthree 5s ease-in-out 8s;
+}
+
+#orange:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#orange path {
+  animation: fill 30s;
+}
