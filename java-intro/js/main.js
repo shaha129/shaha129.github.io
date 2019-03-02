@@ -41,6 +41,7 @@ if ('all students are here') {
 };
 
 
+
 for (var i = 0; i < arrayName.length; i++) { 
 	console.log( arrayName[i] );
 }
@@ -55,6 +56,22 @@ if ( hour >= 7 ) {
   console.log("it's not between 7pm and 9:40pm");
 } 
 
+var day = date.getDay();
+if (day == 1){
+	console.log('Its Monday');
+} else if (day ==2){
+	console.log('Its Tuesday');
+} else if (day ==3){
+	console.log('Its Wednesday');
+} else if (day ==4){
+	console.log('Its Thursday'); 
+} else if (day ==5){
+	console.log('Its Friday'); 
+} else if (day ==6){
+	console.log('Its Saturday'); 
+} else{
+	console.log('Its Sunday'); 
+}
 
 
 var favfoods = ['burger', 'sushi', 'avacados'];
@@ -64,8 +81,41 @@ console.log(favfoods);
 var favanimals = ['dog', 'whale', 'panda'];
 console.log(favanimals);
 
-var favplaces = ['pakistan', 'india', 'singapore'];
+var favplaces = ['Pakistan', 'New York', 'Singapore'];
 console.log(favplaces);
 
 var favpokemon = ['lugia', 'charizard', 'snorlax'];
 console.log(favpokemon);
+
+ var favstuff= [favanimals, favplaces, favpokemon];
+ console.log(favstuff);
+
+
+for (var i = 0; i < favstuff.length; i++) { 
+	console.log( favstuff[i] );
+}
+
+   
+var nested= [favstuff];
+
+ for (var i = 0; i < nested.length; i++) { 
+	console.log( nested[i] );
+
+for (var i = 0; i < favfoods.length; i++) { 
+	console.log( favfoods[i] );
+}
+for (var i = 0; i < favanimals.length; i++) { 
+	console.log( favanimals[i] );
+}
+
+for (var i = 0; i < favplaces.length; i++) { 
+	console.log( favplaces[i] );
+}
+
+for (var i = 0; i < favpokemon.length; i++) { 
+	console.log( favpokemon[i] );
+}
+}
+
+
+
