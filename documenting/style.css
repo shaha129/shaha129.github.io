@@ -1,0 +1,33 @@
+
+body{
+	background: white;
+	width: 200%:
+	height: 400%;
+
+}
+
+
+.box{
+	background: #eaeaea;
+	width: 100vw;
+	height: 130vh;
+	margin: 2vw;
+}
+
+.heading{
+	text-align: center;
+	font-size: 3em;
+	font-weight: bold;
+	position: absolute;
+	top: 20%;
+	left: 35%;
+
+}
+
+.movie{
+	width: 60%;
+	height: 68%;
+	position: absolute;
+	top: 40%;
+	left: 25%;
+}

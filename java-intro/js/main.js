@@ -74,48 +74,19 @@ if (day == 1){
 }
 
 
-var favfoods = ['burger', 'sushi', 'avacados'];
-console.log(favfoods);
+var arrayofarray = favfoods, favanimals, favplaces, favpokemon;
 
 
-var favanimals = ['dog', 'whale', 'panda'];
-console.log(favanimals);
-
-var favplaces = ['Pakistan', 'New York', 'Singapore'];
-console.log(favplaces);
-
-var favpokemon = ['lugia', 'charizard', 'snorlax'];
-console.log(favpokemon);
-
- var favstuff= [favanimals, favplaces, favpokemon];
- console.log(favstuff);
+ 
+ console.log(arrayofarray);
 
 
-for (var i = 0; i < favstuff.length; i++) { 
-	console.log( favstuff[i] );
+for (var i = 0; i < arrayofarray.length; i++) { 
+	console.log( arrayofarray[i] );
+	for (var j = 0; j < arrayofarray.length; i++) { 
+	console.log( arrayofarray[i] );
 }
 
-   
-var nested= [favstuff];
-
- for (var i = 0; i < nested.length; i++) { 
-	console.log( nested[i] );
-
-for (var i = 0; i < favfoods.length; i++) { 
-	console.log( favfoods[i] );
-}
-for (var i = 0; i < favanimals.length; i++) { 
-	console.log( favanimals[i] );
-}
-
-for (var i = 0; i < favplaces.length; i++) { 
-	console.log( favplaces[i] );
-}
-
-for (var i = 0; i < favpokemon.length; i++) { 
-	console.log( favpokemon[i] );
-}
-}
 
 
 
