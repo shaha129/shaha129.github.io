@@ -1,0 +1,30 @@
+/* Your styles go here */
+body{
+	background: white;
+
+}
+
+.wrapper{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.button{
+	display: inline;
+	background: white;
+	border: 0.2vw solid black;
+	padding: 1vw;
+	width: 20%;
+	margin: 0 auto;
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+.text{
+	display: none;
+	margin: 3vw;
+	font-size: 6em;
+	text-align: center;
+}

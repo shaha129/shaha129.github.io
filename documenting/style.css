@@ -6,28 +6,161 @@ body{
 
 }
 
+h2{
+	position: absolute;
+	left: 9%;
+}
+
+.backgroundimg{
+	width: 81vw;
+	height: 130vh;
+}
 
 .box{
 	background: #eaeaea;
-	width: 100vw;
+	width: 81vw;
 	height: 130vh;
-	margin: 2vw;
+	margin: 8%;
+	position: absolute;
+	top: 5%;
+}
+
+.audio{
+	width: 80%;
+	display: inline-flex;
+	position: absolute;
+	left: 9%;
+	top: 10%;
+	background-color: black;
 }
 
 .heading{
 	text-align: center;
-	font-size: 3em;
+	font-size: 10em;
 	font-weight: bold;
 	position: absolute;
-	top: 20%;
-	left: 35%;
+	top: 10%;
+	left: 0%;
+	line-height: 0.9em;
 
 }
 
 .movie{
-	width: 60%;
-	height: 68%;
+	width: 69%;
+	height: 45%;
 	position: absolute;
-	top: 40%;
-	left: 25%;
+	top: 49%;
+	left: 16%;
+}
+
+.box2{
+	width: 81vw;
+	height: 130vh;
+	position: absolute;
+	top: 160%;
+	left: 8.6%;
+	background: none;
+}
+
+.book{
+	width: 30%;
+	height: 30%;
+	margin: 1%;
+}
+
+.books{
+
+}
+
+.art1{
+	width: 30%;
+	height: 30%;
+	margin: 0%;
+}
+
+.art2{
+	width: 26%;
+	margin-left: 2%;
+	position: absolute;
+	left: 34%;
+	top: 5%;
+}
+
+.art3{
+	width: 35%;
+	margin-left: 2%;
+	position: absolute;
+	top: 61%;
+	left: 60%;
+}
+
+.art4{
+	width: 36%;
+	position: absolute;
+	top: 55%;
+	left: 17%;
+}
+
+
+.art5{
+	width: 36%;
+	height: 33%;
+	position: absolute;
+	top: 69%;
+	left: 0%;
+	z-index: -1;
+}
+
+.box3{
+	width: 81vw;
+	height: 130vh;
+	position: absolute;
+	top: 289%;
+	left: 8.6%;
+	background: none;
+}
+
+
+.book1{
+	width: 35%;
+	height: 30%;
+	 position: absolute;
+	 top: 69%;
+	 left: 30%;
+}
+
+.book2{
+	width: 32%;
+	height: 30%;
+	margin: 0%;
+	position: absolute;
+	left: 66%;
+	top: 31%;
+}
+
+.book3{
+	width: 23%;
+	height: 38%;
+	margin: 0%;
+	position: absolute;
+	top: 35%;
+	left: 0%;
+}
+
+.book4{
+	width: 36%;
+	height: 30%;
+	margin: 0%;
+	position: absolute;
+	top: 90%;
+	left: 59%;
+}
+
+.book5{
+	width: 36%;
+	height: 30%;
+	margin: 0%;
+	position: absolute;
+	top: 10%;
+	left: 26%;
 }

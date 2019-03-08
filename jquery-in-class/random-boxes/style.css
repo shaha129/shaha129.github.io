@@ -1,0 +1,113 @@
+/* Your styles go here */
+body{
+	background: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+}
+
+
+.button{
+	width: 15vw;
+	height: 2vh;
+	border: 0.1vw solid black;
+	font-size: 1em;
+	text-align: center;
+	padding: 2vw;
+	font-family: helvetica;
+	position: absolute;
+	left: 40%;
+}
+
+.boxes{
+
+}
+
+.box1 {
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	margin: 1vw;
+	display: inline;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 30vh;
+	background-color: white;
+	border: 0.1vw solid #6138b3;
+}
+
+.box2 {
+	position: absolute;
+	top: 20%;
+	left: 23%;
+	margin: 1vw;
+	display: inline;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 30vh;
+	background-color: white;
+	border: 0.1vw solid #6138b3;
+}
+
+.box3 {
+	position: absolute;
+	top: 20%;
+	left: 43%;
+	margin: 1vw;
+	display: inline;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 30vh;
+	background-color: white;
+	border: 0.1vw solid #6138b3;
+}
+
+.box4 {
+	position: absolute;
+	top: 20%;
+	left: 63%;
+	margin: 1vw;
+	display: inline;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 30vh;
+	background-color: white;
+	border: 0.1vw solid #6138b3;
+}
+
+.box5 {
+	position: absolute;
+	top: 20%;
+	left: 83%;
+	margin: 1vw;
+	display: inline;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 15vw;
+	height: 30vh;
+	background-color: white;
+	border: 0.1vw solid #6138b3;
+}
+
+
+.text{
+	font-family: helvetica;
+	font-size: 4em;
+	text-align: center;
+	margin: 4vw;
+	color: #6138b3;
+}
+
+.color{
+	background-color: #6138b3;
+	color: white;
+}

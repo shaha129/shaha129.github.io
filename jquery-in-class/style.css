@@ -1,0 +1,13 @@
+/* Your styles go here */
+
+body{
+	background: blue;
+}
+
+.toggle{
+	width: 20vw;
+	height: 20vh;
+	background: red;
+	font-size: 1em;
+	color: black;
+}
