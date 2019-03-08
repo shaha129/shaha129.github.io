@@ -9,6 +9,12 @@ body{
 h2{
 	position: absolute;
 	left: 9%;
+	text-decoration: none;
+	color: black;
+}
+
+h2:hover{
+	color:  #eaeaea;
 }
 
 .backgroundimg{
