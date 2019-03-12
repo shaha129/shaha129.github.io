@@ -3,8 +3,8 @@ $(function() {
 
 
  $(".button").click(function(){
-  var i = Math.floor((Math.random()*4)+1);
+  var thing = Math.floor((Math.random()*4)+1);
   $('.boxes').children().removeClass('color');
-   $('.boxes').children().eq(i).addClass('color');
+   $('.boxes').children().eq(thing).addClass('color');
 }); 
-});
+}); 
