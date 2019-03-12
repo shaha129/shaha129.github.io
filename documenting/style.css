@@ -6,38 +6,41 @@ body{
 
 }
 
-h2{
+h3{
 	position: absolute;
-	left: 9%;
 	text-decoration: none;
 	color: black;
+	text-align: center;
+	margin: 1em;
+	z-index: 2;
 }
 
-h2:hover{
+h3:hover{
 	color:  #eaeaea;
 }
 
 .backgroundimg{
 	width: 81vw;
 	height: 130vh;
+	z-index: -2;
 }
 
 .box{
-	background: #eaeaea;
+	background: none;
 	width: 81vw;
 	height: 130vh;
 	margin: 8%;
 	position: absolute;
 	top: 5%;
+	background-image: url('paint5.jpg');
 }
 
 .audio{
 	width: 80%;
 	display: inline-flex;
-	position: absolute;
-	left: 9%;
-	top: 10%;
 	background-color: black;
+	z-index: 2;
+	margin-top: 2vh;
 }
 
 .heading{
