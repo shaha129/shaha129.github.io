@@ -10,8 +10,10 @@ $(window).on('scroll', function() {
   var scrollTop = $(win).scrollTop();
 
   if ( scrollTop + windowHeight >= documentHeight ) {
-    blade.css ('transform', 'rotate('+ top +' deg)');
   }
+
+  console.log('top', scrollTop);
+    blade.css ('transform', 'rotate('+ scrollTop +'deg)');
 });
 
 });

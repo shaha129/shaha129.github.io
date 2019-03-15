@@ -1,0 +1,186 @@
+
+body{
+	background: white;
+	width: 200%:
+	height: 400%;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+h3{
+
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	margin: 2vw;
+	z-index: 2;
+}
+
+h3:hover{
+	color:  #eaeaea;
+}
+
+.backgroundimg{
+	width: 81vw;
+	height: 130vh;
+	z-index: -2;
+}
+
+.box{
+	display: block;
+	background: none;
+	width: 81vw;
+	height: auto;
+	margin: 8%;
+	position: absolute;
+	top: 5%;
+	background-image: url('paint5.jpg');
+	overflow: hidden;
+}
+
+.audio{
+	width: 80%;
+	display: inline-flex;
+	background-color: black;
+	z-index: 2;
+	margin: 1%;
+	margin-left: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.heading{
+	text-align: center;
+	font-size: 14vw;
+	font-weight: bold;
+	line-height: 0.9em;
+
+}
+
+.movie{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.box2{
+	width: 81vw;
+	height: auto;
+	background: white;
+}
+
+.book{
+	width: 30%;
+	height: 30%;
+	margin: 1%;
+}
+
+.books{
+
+}
+
+.art1{
+	width: 30%;
+	height: 44%;
+	margin: 5%;
+}
+
+.art2{
+	width: 26%;
+	height: 43%;
+	margin-left: 2%;
+	margin-top: 30%;
+
+}
+
+.art3{
+	width: 37%;
+	margin-left: 55%;
+	margin-top: 13%;
+	z-index:-1;
+	
+}
+
+.art4{
+	width: 36%;
+	z-index: 1;
+	margin-left: -79%;
+	margin-top: 4%;
+	display: inline;
+	
+}
+
+
+.art5{
+	width: 36%;
+	height: 33%;
+	z-index: -1;
+	margin-top: -14%;
+	display: block;
+}
+
+.box3{
+	width: 81vw;
+	height: auto;
+	background: white;
+	margin-top: -1%;
+}
+
+
+.book1{
+	width: 35%;
+	height: 30%;
+	margin-top: 21%;
+	 
+}
+
+.book2{
+	width: 35%;
+	height: 30%;
+	margin-left: 28%;
+	z-index: -3;
+	
+}
+
+.book3{
+	width: 23%;
+	height: 38%;
+	margin-top: -1%;
+	display: inline;
+	z-index: 1;
+}
+
+.book4{
+	width: 36%;
+	height: 30%;
+	display: inline-block;
+	margin: 9%;
+	
+}
+
+.book5{
+	width: 36%;
+	height: 30%;
+	margin: 0%;
+	margin-top: 5%;
+	z-index: -1;
+	
+}
