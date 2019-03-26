@@ -13,9 +13,8 @@
 .square{
   	border: 3px solid #8bc9e6;
   	padding: 10px;
-	width: 400px;
-    height: 400px;
-    border-radius: 50%;
+	width: 350px;
+    height: 350px;
     background-image: linear-gradient(#8bc9e6, white);
     z-index: -2;
     position: absolute;
@@ -31,7 +30,6 @@
 	width: 60px;
 	background: #3b328a;
 	z-index: -3;
-	 border-radius: 50%;
 	position: absolute;
 	top: -40%;
 	left: 41%;
@@ -41,10 +39,14 @@
 	padding: 10px;
 	margin: auto;
 	margin-top: 10%;
-  	box-shadow: inset 0px 0px 40px 40px white;
 	width: 500px;
     height: 500px;
+
+    background-image: linear-gradient(#7ba782, yellow, orange);
     border-radius: 50%;
     background-color: #7ba782;
     z-index: -4;
+
+   
 }
+

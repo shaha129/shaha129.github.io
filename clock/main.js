@@ -20,6 +20,7 @@ $(function() {
     $second.css('transform', 'rotate(' + (360/60 * s) + 'deg)');
     $milliseconds.css('transform', 'rotate(' + (360/60 * ms) + 'deg)');
 
+   
 
     setTimeout(updateClock, clockUpdateSpeed);
   }
