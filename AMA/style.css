@@ -1,8 +1,8 @@
 
 body {
 	background-image: url('./giph2.gif');
-    background-size: cover;
-    height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 140% auto;
     padding:0;
     margin:0;
  	font-family: 'Oswald', sans-serif;
