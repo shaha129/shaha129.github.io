@@ -227,7 +227,7 @@ img:hover {
 	height: auto;
 	position: absolute;
 	top: 134%;
-	left: 21%;
+	left: 24%;
 	z-index: 0;
 }
 
@@ -584,11 +584,49 @@ img:hover {
 	z-index: -1;
 }
 
-#havana{
-	width: 9vw;
+#LV{
+	width: 7vw;
 	height: auto;
 	position: absolute;
-	top: -146%;
-	left: 67%;
+	top: 216%;
+	left: -2%;
+	z-index: -1;
+}
+
+
+#mahershala_ali{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 60%;
+	left: 66%;
+	z-index: -1;
+}
+
+
+#mudkip{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 221%;
+	left: 24%;
+	z-index: 1;
+}
+
+#nyx{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 193%;
+	left: 18%;
+	z-index: -1;
+}
+
+#ovulationpains{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 238%;
+	left: 72%;
 	z-index: -1;
 }
