@@ -1,0 +1,293 @@
+
+body {
+	background-image: url('./giph2.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+ font-family: helvetica;
+}
+/*
+.container{	
+
+	background-color: none;
+	width: 60vw;
+	height: 171vh;
+	margin: -11%;
+	margin-left: 15%;
+	position: absolute;
+	top: 5%;
+	overflow: hidden;
+}*/
+
+.container {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: none;
+	width: 60vw;
+	height: 171vh;
+	overflow: hidden;
+
+}
+
+h1{
+	font-size: 4em;
+	color: white;
+	margin: 6%;
+	position: relative;
+	top: 5%;
+	left: -6%;
+	line-height: 1.3em;
+
+}
+
+
+
+h2{
+	font-size: 1em;
+	color: white;
+	position: absolute;
+ 	top: -20%;
+ 	left: 10%;
+
+}
+
+
+
+
+.search-box {
+  transform: translate(-50%, -50%);
+  transform: rotate(20deg);
+  background: none;
+  color: white;
+  text-shadow: 0 0 3px #25aae1;   
+  height: 13px;
+  width: 290px;
+  border-radius: 40px;
+  padding: 10px;
+  border: 0.5px solid white;
+  overflow: hidden;
+  
+}
+
+.search-box:hover{
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 white,
+              0 14px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.one {	
+ position: relative;
+ top: 7%;
+ left: 4%;
+
+}
+
+
+
+.two {
+ position: relative;
+ top: 7%;
+ left: 20%;
+ transform: rotate(-12deg);
+ 
+}
+.three {
+ position: relative;
+ top: 12.3%;
+ left: 43%;
+ 
+}
+
+.four {
+ position: relative;
+ top: 12%;
+ left: 50%;
+ transform: rotate(-13deg);
+}
+
+.five {
+ position: relative;
+ top: -2%;
+ left: 71%;
+ 
+}
+
+.six {
+ position: relative;
+ top: 19%;
+ left: -4%;
+ transform: rotate(27deg);
+ 
+}
+
+.seven {
+ position: relative;
+ top: 19%;
+ left: 32%;
+ transform: rotate(22deg);
+ 
+}
+
+.eight {
+ position: relative;
+ top: 13%;
+ left: -45%;
+ transform: rotate(101deg);
+ z-index: -1;
+ 
+}
+
+.nine {
+ position: relative;
+ top: -9%;
+ left: 10%;
+ transform: rotate(-44deg);
+ z-index: -1;
+ 
+}
+
+.ten {
+ position: relative;
+ top: 4%;
+ left: -7%;
+ transform: rotate(9deg);
+ 
+}
+
+.eleven {
+ position: relative;
+ top: -29%;
+ left: -18%;
+ transform: rotate(-97deg);
+ z-index: -1;
+ 
+}
+
+.twelve {
+ position: relative;
+ top: -4%;
+ left: -20%;
+ transform: rotate(-54deg);
+ 
+}
+
+
+.thirteen {
+ position: relative;
+ top: -0.7%;
+ left: -32%;
+ transform: rotate(-2deg);
+ 
+}
+
+
+.fourteen {
+ position: relative;
+ top: -4.7%;
+ left: -2%;
+ transform: rotate(-46deg);
+ 
+}
+
+
+.fifteen {
+ position: relative;
+ top: -12.5%;
+ left: 4%;
+ transform: rotate(-80deg);
+ z-index: -1;
+ 
+}
+
+
+.sixteen {
+ position: relative;
+ top: -17.7%;
+ left: -15%;
+ transform: rotate(-119deg);
+ z-index: -1;
+ 
+}
+
+
+.seventeen {
+ position: relative;
+ top: -12.7%;
+ left: 19%;
+ transform: rotate(104deg);
+ 
+}
+
+
+.eighteen {
+ position: relative;
+ top: -22.7%;
+ left: 4%;
+ transform: rotate(-127deg);
+ 
+}
+
+.nineteen {
+ position: relative;
+ top: 2.3%;
+ left: -3%;
+ transform: rotate(37deg);
+ 
+}
+
+.twenty {
+ position: relative;
+ top: -30.7%;
+ left: 48%;
+ transform: rotate(-54deg);
+ 
+}
+
+.twentyone {
+ position: relative;
+ top: -19.7%;
+ left: 57%;
+ transform: rotate(-34deg);
+ 
+}
+
+
+.twentytwo {
+ position: relative;
+ top: -10.7%;
+ left: 44%;
+ transform: rotate(80deg);
+ 
+}
+
+
+.search-btn {
+ color: #25aae1;
+ position: absolute;
+ top: 20%;
+ left: 85%;
+ width: 40px;
+ height: 21px;
+ border-radius: 50%;
+ background: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+.search-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}﻿

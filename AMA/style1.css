@@ -1,0 +1,594 @@
+
+body {
+background-image: url('./pictures/Blueprint.png');
+ margin: 0;
+ padding: 0;
+ font-family: helvetica;
+}
+
+.message{
+	font-size: 1em;
+	color: white;
+/*	display: hidden;*/
+	position: absolute;
+	top: 40%;
+	display:none;
+}
+
+.container{	
+
+	background-color: none;
+	display: block;
+	width: 100vw;
+	height: 18vh;
+	margin-left: 4%;
+	position: absolute;
+	left: 14%;
+	top: 41%;
+	
+}
+
+
+img{
+	width: 14vw;
+	height: auto;
+}
+
+img:hover {
+	z-index: 1 !important;
+}
+
+.text {
+	font-size: 1em;
+	display:none;
+	color:white;
+	background-color: none;
+	position: fixed;
+	line-height: 1.5em;
+	z-index: 3;
+	margin-top: -22%;
+	margin-left: -10%;
+}
+
+
+#teriyaki{
+	position: absolute;
+	top: 57%;
+	left: -5%;
+	width: 7vw;
+	height: auto;
+
+}
+
+#march23{
+	width: 12vw;
+	height: auto;
+	position: absolute;
+	top: -125%;
+	left: 3%;
+}
+
+#cinnamon{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -36%;
+	left: 8%;
+}
+
+#gooddoc{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -100%;
+	left: 16%;
+}
+
+
+#loreal{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -129%;
+	left: 25%;
+	z-index: 1;
+}
+
+#missile{
+	width: 12vw;
+	height: auto;
+	position: absolute;
+	top: -107%;
+	left: 29%;
+	z-index: 0;
+}
+
+#badknees{
+	width: 10vw;
+	height: auto;
+	position: absolute;
+	top: -23%;
+	left: -2%;
+	z-index: 0;
+}
+
+#bealright{
+	width: 10vw;
+	height: auto;
+	position: absolute;
+	top: 25%;
+	left: 1%;
+	z-index: 2;
+}
+
+#aladdin{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -19%;
+	left: 38%;
+	z-index: 0;
+}
+
+
+#calculus{
+	width: 10vw;
+	height: auto;
+	position: absolute;
+	top: 24%;
+	left: 14%;
+	z-index: 0;
+}
+
+#bee{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: -137%;
+	left: 37%;
+	z-index: 0;
+}
+
+#batman{
+	width: 11vw;
+	height: auto;
+	position: absolute;
+	top: 99%;
+	left: 14%;
+	z-index: 0;
+}
+
+#atypical{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 49%;
+	left: 30%;
+	z-index: 0;
+}
+
+#a4dimensions{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -116%;
+	left: 46%;
+	z-index: 0;
+}
+
+
+#aurat{
+	width: 11vw;
+	height: auto;
+	position: absolute;
+	top: 145%;
+	left: -6%;
+	z-index: 0;
+}
+
+#SNUmap{
+	width: 11vw;
+	height: auto;
+	position: absolute;
+	top: 0%;
+	left: 22%;
+	z-index: -1;
+}
+
+#bhutto{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: 34%;
+	left: 46%;
+	z-index: 0;
+}
+
+#nineteen75{
+	width: 6vw;
+	height: auto;
+	position: absolute;
+	top: -56%;
+	left: 24%;
+	z-index: 0;
+}
+
+#aangan{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: -1%;
+	left: 48%;
+	z-index: 0;
+}
+
+#airmax{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: 134%;
+	left: 21%;
+	z-index: 0;
+}
+
+
+#sajni{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -72%;
+	left: -5%;
+	z-index: 0;
+}
+
+#aliexpress{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 0%;
+	left: -7%;
+	z-index: 0;
+}
+
+#appropriation{
+	width: 10vw;
+	height: auto;
+	position: absolute;
+	top: 126%;
+	left: 35%;
+	z-index: 0;
+}
+
+
+#colorcode{
+	width: 11vw;
+	height: auto;
+	position: absolute;
+	top: 43%;
+	left: 6%;
+	z-index: -1;
+}
+
+#colored-contacts{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: -64%;
+	left: 40%;
+	z-index: 0;
+}
+
+#connor{
+	width: 6vw;
+	height: auto;
+	position: absolute;
+	top: -61%;
+	left: -10%;
+	z-index: 0;
+}
+
+#circle{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 91%;
+	left: -11%;
+	z-index: 0;
+}
+
+
+#cough{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: -113%;
+	left: -6%;
+	z-index: 0;
+}
+
+
+#cosmic{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: -152%;
+	left: 52%;
+	z-index: 0;
+}
+
+#cranberries{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 136%;
+	left: 40%;
+	z-index: 0;
+}
+
+#cumulative{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: -145%;
+	left: -13%;
+	z-index: 0;
+}
+
+#aries{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -185%;
+	left: 59%;
+	z-index: 0;
+}
+
+
+#australia{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 120%;
+	left: 50%;
+	z-index: 0;
+}
+
+
+#autism{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 91%;
+	left: 56%;
+	z-index: 0;
+}
+
+#cuvette{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: -47%;
+	left: 57%;
+	z-index: 0;
+}
+
+
+#devil{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 90%;
+	left: 51%;
+	z-index: 0;
+}
+
+
+#diego{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: -5%;
+	left: 62%;
+	z-index: 0;
+}
+
+#diljit{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 32%;
+	left: 55%;
+	z-index: 0;
+}
+
+#dreams{
+	width: 10vw;
+	height: auto;
+	position: absolute;
+	top: -1%;
+	left: 67%;
+	z-index: 0;
+}
+
+
+#uk{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 103%;
+	left: 62%;
+	z-index: 0;
+}
+
+
+#feminist{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -116%;
+	left: 61%;
+	z-index: 0;
+}
+
+#finaltable{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 174%;
+	left: 58%;
+	z-index: 0;
+}
+
+#finaltablecandidates{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 194%;
+	left: 50%;
+	z-index: 0;
+}
+
+#forevermygirl{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 158%;
+	left: 10%;
+	z-index: -1;
+}
+
+#FRESH{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 161%;
+	left: 33%;
+	z-index: -2;
+}
+
+#galaxy10{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 218%;
+	left: 38%;
+	z-index: 0;
+}
+
+#classroom{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 223%;
+	left: 44%;
+	z-index: 1;
+}
+
+#goodtrouble{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -146%;
+	left: 67%;
+	z-index: -1;
+}
+
+
+#gearth{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 188%;
+	left: 2%;
+	z-index: 0;
+}
+
+#graham{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 146%;
+	left: 67%;
+	z-index: -1;
+}
+
+#gsm{
+	width: 12vw;
+	height: auto;
+	position: absolute;
+	top: -182%;
+	left: 44%;
+	z-index: -1;
+}
+
+#gustavklimt{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 194%;
+	left: 28%;
+	z-index: -1;
+}
+
+#gyro{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -165%;
+	left: 31%;
+	z-index: -1;
+}
+
+#havana1{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: 14%;
+	left: -13%;
+	z-index: -1;
+}
+
+#healing{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -146%;
+	left: 43%;
+	z-index: -1;
+}
+
+#smoothie{
+	width: 7vw;
+	height: auto;
+	position: absolute;
+	top: 54%;
+	left: 72%;
+	z-index: -1;
+}
+
+#ICC{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: 221%;
+	left: 47%;
+	z-index: -1;
+}
+
+#LSE{
+	width: 8vw;
+	height: auto;
+	position: absolute;
+	top: 180%;
+	left: -9%;
+	z-index: -1;
+}
+
+#havana{
+	width: 9vw;
+	height: auto;
+	position: absolute;
+	top: -146%;
+	left: 67%;
+	z-index: -1;
+}
