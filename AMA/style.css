@@ -5,8 +5,8 @@ body {
     height: 100vh;
     padding:0;
     margin:0;
- font-family: helvetica;
-}
+ 	font-family: 'Oswald', sans-serif;
+ }	
 /*
 .container{	
 
@@ -27,19 +27,31 @@ body {
 	background-color: none;
 	width: 60vw;
 	height: 171vh;
-	overflow: hidden;
+	position: relative;
+	top: 10%;
 
 }
 
+a{
+	text-decoration: none;
+}
+
 h1{
+
 	font-size: 4em;
 	color: white;
-	margin: 6%;
+	text-align: center;
 	position: relative;
-	top: 5%;
-	left: -6%;
-	line-height: 1.3em;
+	top: 6%;
+	line-height: 1.8em;
+	margin-bottom: 10%;
+	letter-spacing: 0.3em;
+	text-decoration: none;
 
+}
+
+h1:hover{
+	color: #25aae1;
 }
 
 
@@ -48,12 +60,10 @@ h2{
 	font-size: 1em;
 	color: white;
 	position: absolute;
- 	top: -20%;
+ 	top: -33%;
  	left: 10%;
 
 }
-
-
 
 
 .search-box {
@@ -178,7 +188,7 @@ h2{
 .thirteen {
  position: relative;
  top: -0.7%;
- left: -32%;
+ left: -13%;
  transform: rotate(-2deg);
  
 }

@@ -3,7 +3,7 @@ body {
 background-image: url('./pictures/Blueprint.png');
  margin: 0;
  padding: 0;
- font-family: helvetica;
+font-family: 'Rubik', sans-serif;
 }
 
 .message{
@@ -15,8 +15,7 @@ background-image: url('./pictures/Blueprint.png');
 	display:none;
 }
 
-.container{	
-
+.container {	
 	background-color: none;
 	display: block;
 	width: 100vw;
@@ -24,8 +23,7 @@ background-image: url('./pictures/Blueprint.png');
 	margin-left: 4%;
 	position: absolute;
 	left: 14%;
-	top: 41%;
-	
+	top: 41%;	
 }
 
 
@@ -57,7 +55,6 @@ img:hover {
 	left: -5%;
 	width: 7vw;
 	height: auto;
-
 }
 
 #march23{
