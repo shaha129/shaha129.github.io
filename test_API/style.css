@@ -9,6 +9,14 @@ img{
 	height: 50%;
 }
 
+h1{
+  font-family: helvetica;
+  font-size: 2em;
+  position: relative;
+  left: 13%;
+  top: 10%;
+}
+
 #pressure {
 	width: 200px;
   	height: 200px;
