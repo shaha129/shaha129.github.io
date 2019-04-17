@@ -1,0 +1,53 @@
+body{
+	width: 100vw;
+	height: 100vh;
+}
+
+
+img{
+	width: 50%;
+	height: 50%;
+}
+
+#pressure {
+	width: 200px;
+  	height: 200px;
+  	border-radius: 50%;
+  	background: red;
+  	position: relative;
+  	left: 30%;
+  	top: 30%;
+}
+
+#wind {
+	width: 100px;
+  	height: 100px;
+  	margin: 5%;
+  	background: blue;
+  	position: relative;
+    left: 8%;
+}
+
+
+#humidity {
+  width: 100px;
+    height: 100px;
+    margin: 5%;
+    background: green;
+    position: relative;
+    left: 50%;
+    top: -40%;
+
+}
+
+
+
+#humidity2 {
+  width: 100px;
+    height: 100px;
+    margin: 5%;
+    background: yellow;
+    position: relative;
+    left: 50%;
+    top: -40%;
+}

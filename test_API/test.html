@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<style type="text/css">
+	#thing {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+}
+
+#animate {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: blue;
+}
+	</style>
+
+<div></div>
+</body>
+
+<div id="thing"></div>
+
+<p><button onclick="myMove()">Click Me</button></p> 
+
+<div id ="animate"></div>
+
+	<script src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+
+$( '#thing' ).animate({
+    left: '+=50', // increase by 50
+    opacity: 0.25,
+    fontSize: '12px'
+  },
+  300,
+  function() {
+    // executes when the animation is done
+  }
+);
+
+
+
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 5);
+  function frame() {
+    if (pos == 350) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + "px"; 
+      elem.style.left = pos + "px"; 
+    }
+  }
+}
+
+
+
+
+</script>
+</html>
