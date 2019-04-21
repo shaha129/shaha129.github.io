@@ -1,7 +1,26 @@
 body{
-	background: pink;
-	font-family: helvetica;
+	background: #F67280;
+	font-family: 'Quicksand', sans-serif;
 	color: white;
 	font-size: 3em;
-	margin: 5%;
+	margin: 4%;
+	text-align: center;
+}
+
+span{
+	color: crimson;
+}
+
+button{
+	color: white;
+	background-color: crimson;
+	font-size: 0.9em;
+	border: 2px pink dotted;
+	padding: 2%;
+	margin: auto;
+}
+
+button:hover{
+	background-color: white;
+	color: crimson;
 }
