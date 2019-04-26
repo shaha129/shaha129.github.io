@@ -1,0 +1,17 @@
+body{
+	background-color: black;
+}
+
+
+
+
+.star{
+  z-index: 10;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: white;
+  box-shadow: 2493px 2060px #FFF ;
+  position: absolute;
+
+}

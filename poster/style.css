@@ -1,0 +1,199 @@
+body{
+  background-color: white;
+}
+
+a{
+  text-decoration: none;
+  color:  #00ff00;
+}
+
+img{
+  z-index: -1;
+  width: 79vw;
+  height: auto;
+  position: absolute;
+  left: -21%;
+  top: -30%;
+}
+
+.talia{
+  text-decoration: none;
+  color: black;
+}
+
+.talia:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+
+.text{
+  font-size: 2vw;
+  text-align: center;
+  font-family: helvetica;
+  position: absolute;
+  left: 69%;
+  top: 0%;
+}
+
+.text2{
+  font-size: 2vw;
+  text-align: left;
+  font-family: helvetica;
+  position: absolute;
+  left: 16%;
+  top: 13%;
+}
+
+.text3{
+  font-size: 2vw;
+  text-align: left;
+  font-family: helvetica;
+  position: absolute;
+  left: 16%;
+  top: 26%;
+}
+
+.text4{
+  font-size: 2.3vw;
+  text-align: left;
+  line-height: 1.4em;
+  font-family: helvetica;
+  position: absolute;
+  left: 16%;
+  top: 44%;
+}
+
+.container{
+  width: 70vw;
+  height: 96vh;
+  background-color: none;
+  margin: auto;
+  border: 3px solid none;
+  padding: 10px;
+  overflow: hidden;
+ 
+}
+
+.box{
+  background-color: #ec008c;
+  height: 77vh;
+  margin: auto;
+  width: 56vw;
+  position: absolute;
+  top: 11%;
+
+}
+
+.t{
+  position: absolute;
+  top: -45%;
+  left: 21%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+
+.a{
+  position: absolute;
+  top: -34%;
+  left: -13%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+.l{
+  position: absolute;
+  top: -3%;
+  left: -14%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+  z-index: -1;
+}
+.i{
+  position: absolute;
+  top: 27%;
+  left: -6%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+  z-index: -1;
+}
+.a2{
+  position: absolute;
+  top: 57%;
+  left: -17%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+.c{
+  position: absolute;
+  top: 54%;
+  left: 19%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+  z-index: -1;
+}
+
+.o{
+  position: absolute;
+  top: 67%;
+  left: 50%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+.t2{
+  position: absolute;
+  top: 51%;
+  left: 83%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+.t3{
+  position: absolute;
+  top: 23%;
+  left: 102%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+.o2{
+  position: absolute;
+  top: -9%;
+  left: 87%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+}
+
+.n{
+  position: absolute;
+  top: -44%;
+  left: 87%;
+  font-family: dunbar-tall, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20vw;
+  z-index: -1;
+}
