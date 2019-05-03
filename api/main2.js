@@ -1,5 +1,6 @@
-document.onmousemove = animateStars;
-function animateStars (eventp){
+$(document).ready(function(){
+	document.onmousemove = animateStars;
+	function animateStars (eventp){
 	var star = document.createElement("div");
 	star.setAttribute("class","star");
 	document.body.appendChild(star);
@@ -18,5 +19,19 @@ function animateStars (eventp){
 	// star.style.width = "50px";
 	// star.style.height = "50px";
 
-
 }
+
+
+	for ( i = 0; i < 20; i++ ) {
+	function animateStars (eventp){
+	var star = document.createElement("div");
+	star.setAttribute("class","star");
+	document.body.appendChild(star);
+
+	star.style.left = event.clientX +'px';
+	star.style.top = event.clientY +'px';
+}
+    
+  }
+
+});

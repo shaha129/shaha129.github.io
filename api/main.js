@@ -1,149 +1,96 @@
+// Wrap around array given delta from index.
+function createWrapAround(array) {
+  const minVal = 0;
 
+  return (currentIndex, delta) => {
+    const maxVal = array.length;
 
-var NUM_PARTICLES = ( ( ROWS = 100 ) * ( COLS = 400 ) ),
-    THICKNESS = Math.pow( 80, 2 ),
-    SPACING = 6,
-    MARGIN = 0,
-    COLOR = 300,
-    DRAG = 0.95,
-    EASE = 0.25,
-    
-    /*
-    
-    used for sine approximation, but Math.sin in Chrome is still fast enough :)http://jsperf.com/math-sin-vs-sine-approximation
+    if (delta >= 0) {
+      currentIndex = (currentIndex + delta - minVal) % maxVal + minVal;
+    } else {
+      currentIndex =
+        (currentIndex + delta + maxVal * -delta - minVal) % maxVal + minVal;
+    }
 
-    B = 4 / Math.PI,
-    C = -4 / Math.pow( Math.PI, 2 ),
-    P = 0.225,
+    return currentIndex;
+  };
+}
 
-    */
+const slideContainer = document.querySelector(".image-slide-wrapper");
+const slideURLs = [
+  "Purple.png",
 
+  "purple1.png",
 
-    container,
-    particle,
-    canvas,
-    mouse,
-    stats,
-    list,
-    ctx,
-    tog,
-    man,
-    dx, dy,
-    mx, my,
-    d, t, f,
-    a, b,
-    i, n,
-    w, h,
-    p, s,
-    r, c
-    ;
+  "purple2.png",
+  "purple3.png",
+  "purple4.png",
+  "purple5.png"
+];
 
-particle = {
-  vx: 0,
-  vy: 0,
-  x: 0,
-  y: 0
-};
+const imageSlides = slideURLs.map((slideURL, index) => {
+  const slide = document.createElement("div");
+  slide.classList.add("image-slide");
+  slide.style.backgroundImage = `url(${slideURL})`;
+  slide.dataset.slideIndex = index;
 
-function init() {
+  slide.addEventListener("click", navigateToSlide.bind(null, index));
 
-  container = document.getElementById( 'container' );
-  canvas = document.createElement( 'canvas' );
-  
-  ctx = canvas.getContext( '2d' );
-  man = false;
-  tog = true;
-  
-  list = [];
-  
-  w = canvas.width = COLS * SPACING + MARGIN * 2;
-  h = canvas.height = ROWS * SPACING + MARGIN * 10;
-  
-  container.style.marginLeft = Math.round( w * -0.5 ) + 'px';
-  container.style.marginTop = Math.round( h * -0.5 ) + 'px';
-  
-  for ( i = 0; i < NUM_PARTICLES; i++ ) {
-    
-    p = Object.create( particle );
-    p.x = p.ox = MARGIN + SPACING * ( i % COLS );
-    p.y = p.oy = MARGIN + SPACING * Math.floor( i / COLS );
-    
-    list[i] = p;
-  }
+  slideContainer.appendChild(slide);
+  return slide;
+});
+const getIndex = createWrapAround(imageSlides);
 
+const slidePickerContainer = document.querySelector(".slide-picker");
+const slidePickers = imageSlides.map((slide, index) => {
+  const slidePicker = document.createElement("div");
+  slidePicker.type = "button";
+  slidePicker.className = "btn btn-circle";
+  slidePicker.innerHTML = "<svg><circle /></svg>";
 
- //    $(window).mouseover(function(e) {
-	// 	var x = e.clientX;
-	// 	var y = e.clientY;
+  slidePicker.addEventListener("click", navigateToSlide.bind(null, index));
+  slidePickerContainer.appendChild(slidePicker);
 
-	// 	console.log(x, y);
-	// });
+  return slidePicker;
+});
 
-  container.addEventListener( 'mousemove', function(e) {
+let currentIndex = 0;
 
-    bounds = container.getBoundingClientRect();
-    mx = e.clientX - bounds.left;
-    my = e.clientY - bounds.top;
-    man = true;
-    
+function getVisibleSlides(selectedIndex) {
+  return [
+    getIndex(selectedIndex, -1),
+    selectedIndex,
+    getIndex(selectedIndex, 1)
+  ].map(index => imageSlides[index]);
+}
+
+function navigateToSlide(selectedIndex) {
+  currentIndex = selectedIndex;
+  const [previousSlide, selectedSlide, nextSlide] = getVisibleSlides(
+    selectedIndex
+  );
+
+  imageSlides.forEach(slide => {
+    slide.classList.toggle("previous", slide === previousSlide);
+    slide.classList.toggle("selected", slide === selectedSlide);
+    slide.classList.toggle("next", slide === nextSlide);
   });
-  
-  if ( typeof Stats === 'function' ) {
-    document.body.appendChild( ( stats = new Stats() ).domElement );
-  }
-  
-  container.appendChild( canvas );
+
+  requestAnimationFrame(() => {
+    slidePickers.forEach((slidePicker, index) => {
+      slidePicker.classList.toggle("selected", index === selectedIndex);
+    });
+  });
 }
 
+const navButtons = Array.from(document.querySelectorAll(".btn-nav"));
 
-function step() {
+navButtons.forEach(navButton => {
+  const delta = parseInt(navButton.dataset.delta, 10);
 
-  if ( stats ) stats.begin();
+  navButton.addEventListener("click", () => {
+    navigateToSlide(getIndex(currentIndex, delta));
+  });
+});
 
-  if ( tog = !tog ) {
-
-    if ( !man ) {
-
-      t = +new Date() * 0.001;
-      mx = w * 0.5 + ( Math.cos( t * 2.1 ) * Math.cos( t * 0.9 ) * w * 0.45 );
-      my = h * 0.5 + ( Math.sin( t * 3.2 ) * Math.tan( Math.sin( t * 0.8 ) ) * h * 0.45 );
-    }
-      
-    for ( i = 0; i < NUM_PARTICLES; i++ ) {
-      
-      p = list[i];
-      
-      d = ( dx = mx - p.x ) * dx + ( dy = my - p.y ) * dy;
-      f = -THICKNESS / d;
-
-      if ( d < THICKNESS ) {
-        t = Math.atan2( dy, dx );
-        p.vx += f * Math.cos(t);
-        p.vy += f * Math.sin(t);
-      }
-
-      p.x += ( p.vx *= DRAG ) + (p.ox - p.x) * EASE;
-      p.y += ( p.vy *= DRAG ) + (p.oy - p.y) * EASE;
-
-    }
-
-  } else {
-
-    b = ( a = ctx.createImageData( w, h ) ).data;
-
-    for ( i = 0; i < NUM_PARTICLES; i++ ) {
-
-      p = list[i];
-      b[n = ( ~~p.x + ( ~~p.y * w ) ) * 4] = b[n+1] = b[n+2] = COLOR, b[n+3] = 255;
-    }
-
-    ctx.putImageData( a, 0, 0 );
-  }
-
-  if ( stats ) stats.end();
-
-  requestAnimationFrame( step );
-}
-
-init();
-step();
+navigateToSlide(1);

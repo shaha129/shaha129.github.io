@@ -1,0 +1,87 @@
+
+.next{
+  background-color: black;
+  border-radius: 50%;
+  width: 3vw;
+  height: 6vh; 
+}
+
+.previous{
+   background-color: black;
+  border-radius: 50%;
+  width: 3vw;
+  height: 6vh; 
+}
+
+.gallery {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.gallery .gallery-content {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .gallery .gallery-content .btn.btn-nav {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .gallery .gallery-content .slide-container {
+    margin-bottom: 25px;
+  }
+}
+@media (min-width: 769px) {
+  .gallery .gallery-content .slide-container {
+    margin: 0 calc(7.2rem / 2) 25px;
+  }
+}
+.gallery .image-slide-wrapper {
+  position: relative;
+  z-index: 1;
+  width: 30vw;
+  height: 420px;
+  max-width: 90vw;
+}
+.gallery .image-slide-wrapper .image-slide {
+  background-color: #eee;
+}
+.gallery .image-slide-wrapper .image-slide:not(.selected) {
+  z-index: -2;
+  opacity: 0;
+}
+.gallery .image-slide-wrapper .image-slide.selected {
+  box-shadow: 0 4px 10px 4px rgba(0,0,0,0.13);
+}
+.gallery .image-slide-wrapper .image-slide.previous,
+.gallery .image-slide-wrapper .image-slide.next {
+  z-index: -1;
+  opacity: 0.5;
+}
+.gallery .image-slide-wrapper .image-slide.previous {
+  -webkit-transform: translate3d(-7.2rem,0,0) scale(0.8);
+          transform: translate3d(-7.2rem,0,0) scale(0.8);
+}
+.gallery .image-slide-wrapper .image-slide.next {
+  -webkit-transform: translate3d(7.2rem,0,0) scale(0.8);
+          transform: translate3d(7.2rem,0,0) scale(0.8);
+}
+.gallery .image-slide {
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 4px rgba(0,0,0,0);
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  opacity: 1;
+}

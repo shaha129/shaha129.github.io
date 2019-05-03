@@ -16,9 +16,18 @@ img{
   top: -45%;
 }
 
+p{
+
+}
+
 .sachi{
   text-decoration: none;
   color: black;
+font-family: dunbar-tall, sans-serif;
+font-weight: 900;
+font-style: normal;
+
+
 }
 
 .sachi:hover{
@@ -260,3 +269,17 @@ img{
   font-size: 13vw;
   z-index: -1;
 }
+
+@media (max-width: 1500px), 
+(max-height: 700px) {
+.box{
+  background-color: #00ff00;
+  height: 99vh;
+  margin: auto;
+  width: 56vw;
+  position: absolute;
+  top: 11%;
+
+}
+
+ } 
