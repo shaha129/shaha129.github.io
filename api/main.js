@@ -94,3 +94,15 @@ navButtons.forEach(navButton => {
 });
 
 navigateToSlide(1);
+
+
+
+  $(".gif").mouseover (function(){
+  $('.para').fadeIn(4);
+  console.log("mouse overed")
+})
+
+
+
+
+
