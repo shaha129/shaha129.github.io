@@ -1,9 +1,43 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/jcb1yxf.css");
+
+
+
 body{
 	background-color: black;
 }
 
 
+.h2{
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 100;
+    font-size: 2.5vw;
+    text-align: center;
+    letter-spacing: 1vw;
+    color: white;
+    position: absolute;
+    top: 50vh;
+    left: 25vw;
+    line-height: 4.3vh;
+    text-transform: uppercase;
+    z-index: 2;
+  }
 
+
+.blink {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}  
 
 .star{
   z-index: 10;
