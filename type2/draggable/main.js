@@ -30,6 +30,23 @@ myAudio.onpause = function() {
 };
 
 
+$( function() {
+
+    $('.box').mouseover(function() {
+       $(this).siblings('.box').css('z-index', 10);
+       $(this).css('z-index', 11);
+    });
+
+
+
+    $( ".gif" ).click(function(){
+        $("#gallery").toggle();
+    });
+
+  
+
+
+
 // 	var count = 0;
 //   $('#gallery').on('click', function(event) {
 //     // All javascript event handlers give you information about the event type in the event argument.

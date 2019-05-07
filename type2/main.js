@@ -23,17 +23,34 @@ myAudio.onpause = function() {
 // 	});
 
 
-	var count = 0;
-  $('#gallery').on('click', function(event) {
-    // All javascript event handlers give you information about the event type in the event argument.
-    console.log(event);
-    // event.preventDefault() will prevent the default click event from happening in the browser.
-    // This makes it so that clicking a link doesn't actually go to that link.
-    event.preventDefault();
+// 	var count = 0;
+//   $('#gallery').on('click', function(event) {
+//     // All javascript event handlers give you information about the event type in the event argument.
+//     console.log(event);
+//     // event.preventDefault() will prevent the default click event from happening in the browser.
+//     // This makes it so that clicking a link doesn't actually go to that link.
+//     event.preventDefault();
 
-    count++;
-    $('.container').append("<img id='stop' src='stop' + count + '.gif'/>");
-  });
+//     count++;
+//     $('.container').append("<img id='stop' src='stop' + count + '.gif'/>");
+//   });
+
+
+$( function() {
+
+    $('.box').mouseover(function() {
+       $(this).siblings('.box').css('z-index', 10);
+       $(this).css('z-index', 11);
+    });
+
+
+
+    $( ".gif" ).click(function(){
+        $(".gallery").toggle();
+    });
+
+  
+
 
 
 

@@ -126,7 +126,7 @@ body{
 }
 
 
-#stop {
+/*#stop {
     
       width: 20vw;
       height: auto;
@@ -140,7 +140,7 @@ body{
     #stop:hover {
       cursor: pointer;
       border-width: 20px;
-    }
+    }*/
 
 
 .gif{
