@@ -222,10 +222,12 @@ body {
 
   .h4{
     font-family: dunbar-tall, sans-serif;
-    font-weight: 100;
-    font-size: 1.5vw;
+      font-weight: 600;
+      text-transform: uppercase;
+    font-size: 1.2vw;
     text-align: center;
     letter-spacing: 0.4vw;
+    line-height: 2.1vw;
     color: white;
   }
 
@@ -246,14 +248,14 @@ body {
 
    .h22{
     font-family: dunbar-tall, sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 3vw;
     text-align: center;
     letter-spacing: 0.4vw;
     color: white;
     position: absolute;
     top: 320vh;
-    left: 25vw;
+    left: 23vw;
     line-height: 10vh;
     text-transform: uppercase;
     z-index: 2;
@@ -428,7 +430,7 @@ body {
 
   .h22{
     font-family: dunbar-tall, sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 2.8vw;
     text-align: center;
     letter-spacing: 0.4vw;
