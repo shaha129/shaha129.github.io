@@ -97,10 +97,22 @@ navigateToSlide(1);
 
 
 
-  $(".gif").mouseover (function(){
-  $('.para').fadeIn(4);
-  console.log("mouse overed")
-})
+
+$('.para').append('<p class="para"></p>');
+   
+  $(".gif").hover (function(){
+  $('.para').fadeIn(3000);
+
+});
+
+// $('.digit').append('<div class="digit"></p>');
+   
+//   $(".gif").hover (function(){
+//   $('.digit').color("white");
+
+// });
+
+
 
 
 
