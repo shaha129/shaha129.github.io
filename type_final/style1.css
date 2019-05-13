@@ -1,0 +1,325 @@
+* {
+		/*cursor: url(type_files/thing.png), auto;*/
+}
+
+
+
+body{
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.big{
+  width: 38vw;
+}
+
+
+.toc{
+	width: 20vw;
+	line-height: 15px;
+	left: 2vw;
+	position: absolute;
+	bottom: 0vw;
+}
+
+.pic{
+	position: absolute;
+	display: none;
+	width: 22vw;
+}
+
+.gif{
+	width: 30vw;
+	height: auto;
+}
+
+.gif:hover{
+border: blue solid 0.4vw;
+}
+
+
+.gif2{
+	width: 40vw;
+	height: auto;
+}
+
+.gif2:hover{
+border: blue solid 0.4vw;
+}
+
+
+#gallery{
+  float: left;
+  width: 7vw;
+  height: auto;
+  padding: 1vw; 
+   cursor: pointer; 
+}
+
+#gallery:hover {
+   -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+.link:hover {
+  
+
+}
+
+a:link {
+    color: none; 
+    background-color: transparent; 
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: none;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+  background-color: none;
+  color: none;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+}
+
+.head{
+  width: 100vw;
+  height: 5vh;
+  background-color: yellow;
+  border-bottom: blue solid 0.6vw;
+  margin-top: -2.5vh;
+}
+
+.textleft{
+  font-size: 1.2vw;
+  letter-spacing: 0.5vw;
+  padding: 0.7vw;
+  padding-left: 1vw;
+
+}
+
+#txt{
+ float: right;
+  font-size: 1.2vw;
+  letter-spacing: 0.5vw;
+  padding: 1.7vw;
+  padding-left: 8vw;
+  margin-top: -1.5vh;
+  color: black;
+
+}
+
+.textright{
+    float: right;
+  font-size: 1.2vw;
+  letter-spacing: 0.5vw;
+ position: absolute;
+ right: 11vw;
+top: -1vh;
+  color: black;
+
+}
+
+.headicon1{
+  width: 2.6vw;
+  height: auto;
+  position: absolute;
+  top: 0.2vh;
+  left: 78vw;
+
+}
+
+
+.headicon2{
+  width: 2.6vw;
+  height: auto;
+  position: absolute;
+  top: 0vh;
+  left: 81vw;
+
+}
+
+#folder{
+ width: 9vw;
+  height: auto;
+  position: absolute;
+  left: 87vw;
+  top: 13vh;
+  z-index: -1;
+  cursor: pointer; 
+
+}
+
+.dock{
+  width: 41vw;
+  height: 14vh;
+  background-color: #1f1f1e;
+  position: absolute;
+  top: 75vh;
+  left: 30vw;
+  z-index: 6;
+}
+
+.dockicons{
+  float: left;
+  width: 6vw;
+  height: auto;
+  padding: 1vw; 
+  cursor: pointer; 
+}
+
+.dockicons:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.music{
+  float: left;
+  width: 7vw;
+  height: auto;
+  padding: 1vw; 
+   cursor: pointer; 
+}
+
+.music:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.trash{
+  float: left;
+  width: 5vw;
+  height: auto;
+  padding-left: 1vw;
+   cursor: pointer; 
+}
+
+.trash:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+
+.pic1{
+  position: absolute;
+  top: 1073.25px
+  left: 253.578px
+  z-index: 15;
+  
+}
+
+
+.pic2{
+  position: absolute;
+  left: 606.594px;
+  top: 556.594px;
+  z-index: 12;
+}
+
+.pic3{
+  position: absolute;
+  left: 223px;
+  top: 333.188px;
+  z-index: 11;
+}
+
+.pic4{
+  position: absolute;
+  left: 283.188px;
+  top: 579.875px;
+  z-index: 7;
+}
+
+.pic5{
+  position: absolute;
+  left: -84.8125px;
+  top: 55.0938px;
+  z-index: 8;
+}
+
+
+.pic6{
+  position: absolute;
+  left: 924px;
+  top: 585.5px;
+  z-index: 4;
+}
+
+.pic7{
+  position: absolute;
+  left: 997.797px;
+  top: 413.797px;
+  z-index: 6;
+}
+
+.pic8{
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  left: -191px;
+  top: 264.766px;
+  z-index: 14;
+}
+
+.pic9{
+  position: absolute;
+  left: 601.797px;
+  top: 364.25px;
+  z-index: 9;
+}
+
+.pic10{
+  position: absolute;
+  left: -39.8125px;
+  top: 573.875px;
+  z-index: 5;
+}
+
+
+.pic11{
+  position: absolute;
+  left: 347px;
+  top: 36.625px;
+  z-index: 15;
+}
+
+.pic12{
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  left: 932px;
+  top: 59.5px;
+  z-index: 3;
+}
+
+
+#video{
+  position: relative;
+  left: 18vw;
+  top: -7vw;
+}
+
+#sectiontohide {
+  position: absolute; 
+  top: 25vh; 
+  width: 60vw; 
+  height: auto; 
+  z-index: -1;
+  display: none;
+}
+
